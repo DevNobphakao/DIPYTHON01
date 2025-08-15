@@ -1,0 +1,8 @@
+fullname = input('ป้อนชื้อ')
+mid_score = input('ป้อนคะแนนกลางภาค')
+final_score = input('ป้อนคะแนนปลายภาค')
+qulz_score = input('ป้อนคะเเนนเก็บ')
+print('----------------') 
+print(f'สวัสดีคุณ : {fullname}')
+print(f'คุณสอบได้คะแนนรวม : {int(mid_score) + int(final_score) + int(qulz_score)} คะเเนน')
+print('----------------') 
