@@ -1,0 +1,10 @@
+print('================================')
+print('Promgra BMI CALCULATOR')
+print('================================')
+name = input('Enter name')
+weight = float(input('Enter weight (kg):'))
+height_cm = float(input('nter height (cm):'))
+print('================================')
+height_m = height_cm / 100
+bmi = weight / (height_m ** 2)
+print(f'{name} valuable BMI = {bmi:.2f} (weight {weight:.1f} kg, height {height_m:.2f} m)')

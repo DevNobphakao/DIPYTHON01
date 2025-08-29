@@ -1,0 +1,16 @@
+print('=================================')
+print('Promgram Carbon Car Checker')
+print('=================================')
+car_owner = input('Enter name use cat :')
+car_number = input('Enter vehicle ragistration :')
+car_carbon = float(input('Enter carbon gas volume :'))
+print('=================================')
+if car_carbon > 678.55 :
+    print(f'vehicle ragistration {car_number} Ty {car_owner} Did not pass the criteria')
+    print(f'Sorry you not pass')
+else :
+ print(f'vehicle ragistration {car_number} Ty {car_owner} pass the criteria')
+ print(f' you pass')
+print('=================================')
+print('Ty ')
+print('=================================')
