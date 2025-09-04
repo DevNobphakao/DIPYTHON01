@@ -1,5 +1,5 @@
 print('=================================')
-print('awdadadawdad')
+print('Product Price Calculator')
 print('=================================')
 pro_id = input('Enter id product :')
 pro_name = input('Enter name product :')
