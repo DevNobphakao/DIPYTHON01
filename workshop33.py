@@ -1,5 +1,12 @@
 #have parmaters no return
 
+'''
+def func_name(param,param,param.....) :
+    คำสั่ง 
+    คำสั่ง
+    ........
+'''
+
 def func_c( xx ) :
     print(f'Hello {xx}')
 
